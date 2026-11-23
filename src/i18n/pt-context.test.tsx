@@ -12,7 +12,7 @@ import { notificationText } from '@/lib/notifications/notification-text';
 import { ModeToggle } from '@/components/layout/mode-toggle';
 import { AppearancePanel } from '@/components/settings/appearance-panel';
 
-const themeState = vi.hoisted(() => ({ mode: 'dark', theme: 'violet' }));
+const themeState = vi.hoisted(() => ({ mode: 'dark', theme: 'orange' }));
 vi.mock('@/hooks/use-theme', () => ({
   useTheme: () => ({
     ...themeState,
@@ -120,7 +120,7 @@ describe('Portuguese messages in their UI context', () => {
     expect(html).toContain('aria-label="Usar o modo escuro"');
     expect(html).toContain('Usar o tema Azul-cobalto');
     expect(html).toContain(
-      'O padrão — transmite confiança com um toque descontraído.'
+      'O padrão — vibrante, quente e enérgico.'
     );
     expect(html).not.toMatch(/Growth-coded|product-y|Use light|Use dark/);
   });

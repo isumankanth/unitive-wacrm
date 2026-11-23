@@ -2049,9 +2049,9 @@
         "dark": "oscuro"
       },
       "themes": {
-        "violet": {
-          "name": "Violeta",
-          "tagline": "El predeterminado: transmite confianza con un toque divertido."
+        "orange": {
+          "name": "Naranja",
+          "tagline": "El predeterminado: vibrante, cálido y enérgico."
         },
         "emerald": {
           "name": "Esmeralda",

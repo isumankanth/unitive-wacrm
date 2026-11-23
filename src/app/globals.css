@@ -160,17 +160,18 @@ html[data-mode="light"] {
 /* ---- ACCENT: primary color ---- */
 
 :root,
+html[data-theme="orange"],
 html[data-theme="violet"] {
-  --primary: oklch(0.526 0.247 293);
+  --primary: #fd620b;
   --primary-foreground: oklch(0.985 0 0);
-  --primary-hover: oklch(0.6 0.22 293);
-  --primary-soft: oklch(0.526 0.247 293 / 0.12);
-  --primary-soft-2: oklch(0.526 0.247 293 / 0.2);
-  --ring: oklch(0.526 0.247 293);
-  --chart-1: oklch(0.526 0.247 293);
-  --sidebar-primary: oklch(0.526 0.247 293);
+  --primary-hover: #ff7426;
+  --primary-soft: rgb(253 98 11 / 0.12);
+  --primary-soft-2: rgb(253 98 11 / 0.22);
+  --ring: #fd620b;
+  --chart-1: #fd620b;
+  --sidebar-primary: #fd620b;
   --sidebar-primary-foreground: oklch(0.985 0 0);
-  --sidebar-ring: oklch(0.526 0.247 293);
+  --sidebar-ring: #fd620b;
 }
 
 html[data-theme="emerald"] {
